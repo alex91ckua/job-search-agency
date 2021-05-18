@@ -221,7 +221,8 @@ GEM
       activerecord (>= 3.0)
     popper_js (1.12.9)
     public_suffix (3.0.2)
-    puma (3.11.3)
+    puma (4.3.8)
+      nio4r (~> 2.0)
     rack (2.0.4)
     rack-test (0.8.3)
       rack (>= 1.0, < 3)
@@ -355,7 +356,7 @@ DEPENDENCIES
   mail_form
   meta-tags
   pg (>= 0.18, < 2.0)
-  puma (~> 3.7)
+  puma (~> 4.3)
   rails (~> 5.1.5)
   rubypress
   sass-rails (~> 5.0)
